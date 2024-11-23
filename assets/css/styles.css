@@ -37,13 +37,25 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-.main {
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
 .intro {
-  text-align: center;
-  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.intro-text {
+  flex: 1;
+  margin-right: 30px;
 }
 
 .intro h2 {
@@ -53,22 +65,26 @@ nav ul li a:hover {
 
 .intro p {
   font-size: 1.2em;
-  margin: 20px auto;
-  max-width: 600px;
+  margin: 20px 0;
   line-height: 1.6;
+}
+
+.profile-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .profile-pic {
   max-width: 200px;
   border-radius: 50%;
-  display: block;
-  margin: 0 auto 20px auto;
   border: 3px solid #0073e6;
 }
 
 .contact {
   text-align: center;
   margin-top: 30px;
+  width: 100%;
 }
 
 .contact h2 {
