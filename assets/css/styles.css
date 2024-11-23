@@ -95,20 +95,31 @@ main {
 
 .contact-links {
   display: flex;
-  justify-content: start; /* Align links to the left */
+  justify-content: center; /* Center the icons horizontally */
   align-items: center;
-  gap: 20px; /* Space between links */
+  gap: 20px; /* Add space between icons */
 }
 
-.contact-links a {
+.contact-icon {
+  font-size: 2em; /* Size of icons */
+  color: #0073e6; /* Icon color */
   text-decoration: none;
-  color: #0073e6; /* Nice blue for links */
-  font-size: 1.2em;
   transition: color 0.3s ease;
 }
 
-.contact-links a:hover {
-  color: #005bb5; /* Slightly darker blue on hover */
+.contact-icon:hover {
+  color: #005bb5; /* Darker blue on hover */
+}
+
+.contact-email {
+  font-size: 1.2em;
+  color: #0073e6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-email:hover {
+  color: #005bb5; /* Darker blue on hover */
 }
 
 footer {
