@@ -89,23 +89,15 @@ main {
 }
 
 .contact {
-  text-align: center;
-  margin-top: 30px;
   width: 100%;
-}
-
-.contact h2 {
-  font-size: 1.8em;
-  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .contact-links {
-  list-style: none;
-  padding: 0;
-}
-
-.contact-links li {
-  margin: 10px 0;
+  display: flex;
+  justify-content: start; /* Align links to the left */
+  align-items: center;
+  gap: 20px; /* Space between links */
 }
 
 .contact-links a {
