@@ -38,3 +38,32 @@ footer {
   background: #333;
   color: #fff;
 }
+.contact-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-links li {
+  margin: 10px 0;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #0073e6; /* Nice blue for links */
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #005bb5; /* Slightly darker blue on hover */
+}
+
+.profile-pic {
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #0073e6; /* Border to match link color */
+}
