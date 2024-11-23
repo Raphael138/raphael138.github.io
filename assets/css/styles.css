@@ -72,7 +72,7 @@ main {
 
 .intro-text {
   flex: 1;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .intro h2 {
@@ -138,4 +138,39 @@ footer {
   padding: 10px;
   background: #333;
   color: #fff;
+}
+
+.publication-list {
+  list-style-type: none;
+}
+
+.publication-item {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.publication-item::before {
+  content: "[" counter(publication-counter) "]";
+  counter-increment: publication-counter;
+  font-weight: normal;
+}
+
+.publication-details {
+  max-width: 85%;
+}
+
+.publication-status {
+  font-style: italic;
+  text-align: right; 
+  margin-left: 20px; 
+  margin-right: 40px; 
+  min-width: 100px; 
+}
+
+.publication-list {
+  padding-left : 50px;
+  counter-reset: publication-counter;
 }
