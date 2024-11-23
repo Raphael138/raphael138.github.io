@@ -28,10 +28,6 @@ nav ul li a {
 main {
   padding: 20px;
 }
-.profile-pic {
-  max-width: 200px;
-  border-radius: 50%;
-}
 footer {
   text-align: center;
   padding: 10px;
@@ -60,10 +56,27 @@ footer {
   color: #005bb5; /* Slightly darker blue on hover */
 }
 
+.intro {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intro h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.intro p {
+  font-size: 1.2em;
+  margin: 20px auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
 .profile-pic {
-  max-width: 150px;
+  max-width: 200px;
   border-radius: 50%;
   display: block;
-  margin: 0 auto;
-  border: 3px solid #0073e6; /* Border to match link color */
+  margin: 0 auto 20px auto;
+  border: 3px solid #0073e6;
 }
