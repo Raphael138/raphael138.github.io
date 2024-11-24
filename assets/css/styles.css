@@ -183,3 +183,57 @@ footer {
   padding-left : 50px;
   counter-reset: publication-counter;
 }
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: left;
+  position: relative;
+}
+
+.project h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.project p {
+  margin: 0 0 15px;
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.project .status {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #ddd;
+}
+
+.project .status.ongoing {
+  background-color: #28a745; /* Green for ongoing projects */
+}
+
+.project-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
