@@ -60,15 +60,17 @@ const projects = [
       'assets/img/brain_segmentation.png'
   ),
   new Project(
-    'Pinhole Camera',
-    `A simple model of a pinhole camera that can be used to visualize a 3D point cloud and perform depth sensing. 
-    You can explore the details in this <a href="https://github.com/Raphael138/Pinhole-Camera/blob/main/pinhole_depth_model.ipynb" target="_blank">GitHub notebook</a>.`,
+    'Pinhole Tracker',
+    `A model of a tracking device that follows a moving target using a noisy depth sensor model. The depth sensor uses pinhole camera 
+    math to visualize a 3D point cloud with noise simulation. You can explore the details in this <a href="https://github.com/Raphael138/Pinhole-Tracker" target="_blank">GitHub repository</a>. 
+    <div style="text-align: center;">
+    <img src="https://github.com/Raphael138/Pinhole-Tracker/blob/main/tracking_blurry.gif?raw=true" style="width:400px; margin-bottom:-40px;">
+    </div>`,
     false,
-    'assets/img/pinhole_camera.png'
   ),
   new Project(
     'Portfolio Optimizer',
-    `A portfolio optimizer which maximizes sharp ratio and expected returns with a deep learning backbone: LSTMs for time series predictions and BERT for sentiment analysis. 
+    `A portfolio optimizer which maximizes Sharpe ratio and expected returns with a deep learning backbone: LSTMs for time series predictions and BERT for sentiment analysis. 
     You can access the final website <a href="https://deep-portfolio-optimization.streamlit.app/" target="_blank">here</a>, 
     and explore the code on <a href="https://github.com/JaMoTh-AI/Deep-Portfolio-Optimization/tree/main" target="_blank">GitHub</a>.`,
     false,
